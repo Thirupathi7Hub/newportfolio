@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Thirupathi</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon"><i class="fas fa-code"></i></span>
+                    <span class="logo-text">Thirupathi</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html">
+                        
+                        <span class="nav-text">Home</span>
+                    </a></li>
+                    <li><a href="about.html">
+                        
+                        <span class="nav-text">About</span>
+                    </a></li>
+                    <li><a href="projects.html">
+                        
+                        <span class="nav-text">Projects</span>
+                    </a></li>
+                    <li><a href="gallery.html" class="active">
+                       
+                        <span class="nav-text">Gallery</span>
+                    </a></li>
+                    <li><a href="contact.html">
+                        
+                        <span class="nav-text">Contact</span>
+                    </a></li>
+                    <li></li>
+                        <a href="Resume.pdf" class="btn btn-primary" style="padding: 10px 20px;">
+                            <span style="color: white;">Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </li>
+                </ul>
+                               
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="page-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Gallery</span>
+                </div>
+                <h1 class="page-title">Design Gallery</h1>
+                <p class="page-description">
+                    A collection of UI designs, posters, and creative visuals that showcase my design 
+                    philosophy and creative process.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Content -->
+    <section class="gallery-content">
+        <div class="container">
+            <div class="gallery-filter">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All Designs</button>
+                    <button class="filter-tab" data-filter="ui">UI/UX Designs</button>
+                    <button class="filter-tab" data-filter="poster">Posters</button>
+                    
+                </div>
+            </div>
+            
+            <div class="gallery-container">
+                <!-- Design 1 -->
+                <div class="gallery-item reveal" data-category="poster">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="poster/Burger Shop.png" alt="Burger Shop">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Burger Shop</h3>
+                                    <p>A delicious burger shop offering a variety of gourmet burgers.</p>
+                                    <button class="view-details" data-index="0">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">Poster Design</div>
+                            <h4>Burger Shop</h4>
+                            <p>Clean and modern design for a burger shop</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Design 2 -->
+                <div class="gallery-item reveal delay-1" data-category="poster">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="poster/Diwali poster.png" alt="Diwali Poster">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Diwali Poster</h3>
+                                    <p>Festive poster design for Diwali celebrations</p>
+                                    <button class="view-details" data-index="1">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">Poster Design</div>
+                            <h4>Diwali Poster</h4>
+                            <p>Bold and modern design for Diwali celebrations</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Design 3 -->
+                <div class="gallery-item reveal delay-2" data-category="ui">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="netflix.png" alt="Netflix UI">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Netflix UI</h3>
+                                    <p>Redesign of the Netflix user interface</p>
+                                    <button class="view-details" data-index="2">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">UI/UX Design</div>
+                            <h4>Netflix UI</h4>
+                            <p>Redesign of the Netflix user interface</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Design 4 -->
+                <div class="gallery-item reveal" data-category="poster">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="poster/gym.png" alt="gym UI">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Gym Poster</h3>
+                                    <p>Modern gym poster design</p>
+                                    <button class="view-details" data-index="3">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">Poster Design</div>
+                            <h4>Gym Poster</h4>
+                            <p>Modern gym poster design</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Design 5 -->
+                <div class="gallery-item reveal delay-1" data-category="poster">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="poster/Hotel App Poster.png" alt="Hotel">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Hotel App Poster</h3>
+                                    <p>Promotional poster for a hotel booking app</p>
+                                    <button class="view-details" data-index="4">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">Poster Design</div>
+                            <h4>Hotel App Poster</h4>
+                            <p>Promotional poster for a hotel booking app</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Design 6 -->
+                <div class="gallery-item reveal delay-2" data-category="ui">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="youtube.png" alt="youtube App UI">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Youtube Design</h3>
+                                    <p>UI/UX Mobile application interface</p>
+                                    <button class="view-details" data-index="5">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">UI/UX Design</div>
+                            <h4>Youtube App</h4>
+                            <p>Intuitive interface design for Youtube application</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal delay-1" data-category="poster">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="poster/jewelry.png" alt="Jewelry Poster">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Jewelry Poster</h3>
+                                    <p>Promotional poster for a jewelry store</p>
+                                    <button class="view-details" data-index="7">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">Poster Design</div>
+                            <h4>Jewelry Poster</h4>
+                            <p>Promotional poster for a jewelry store</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal delay-1" data-category="poster">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="poster/Saloon Shop Poster.png" alt="Saloon Shop">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Saloon Shop Poster</h3>
+                                    <p>Promotional poster for a saloon shop</p>
+                                    <button class="view-details" data-index="8">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">Poster Design</div>
+                            <h4>Saloon Shop Poster</h4>
+                            <p>Promotional poster for a saloon shop</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal delay-1" data-category="poster">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-image">
+                            <img src="poster/watch.png" alt="Watch">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Watch Poster</h3>
+                                    <p>Promotional poster for a watch brand</p>
+                                    <button class="view-details" data-index="9">
+                                        <i class="fas fa-expand"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <div class="gallery-category">Poster Design</div>
+                            <h4>Watch Poster</h4>
+                            <p>Promotional poster for a watch brand</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" >
+        <div class="container">
+            <div class="cta-content">
+                <h2>Like What You See?</h2>
+                <p>Let's collaborate on creating beautiful designs for your next project.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">
+                    <span>Start a Design Project</span>
+                    <i class="fas fa-paint-brush"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"><i class="fas fa-code"></i></span>
+                        <span class="logo-text">Thirupathi</span>
+                    </a>
+                    <p>Frontend Developer & AI Student creating innovative digital solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Thirupathi7Hub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thirupathi-m-448030324/"><i class="fab fa-linkedin"></i></a>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Frontend Development</a></li>
+                            <li><a href="#">AI Integration</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="mailto:thirupathi.naasai@gmail.com">thirupathi.naasai@gmail.com</a></li>
+                            <li><a href="tel:7092964526">+91 7092964526</a></li>
+                            <li>Madurai, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Thirupathi. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <div class="modal-container">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-content">
+                <div class="modal-image-container">
+                    <img src="" alt="" class="modal-image" id="modalImage">
+                </div>
+                
+                <div class="modal-info">
+                    <div class="modal-header">
+                        <span class="modal-category" id="modalCategory"></span>
+                        <h2 class="modal-title" id="modalTitle"></h2>
+                    </div>
+                    
+                    <div class="modal-description" id="modalDescription"></div>
+                    
+                    <div class="modal-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Client</span>
+                            <span class="detail-value" id="modalClient"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Year</span>
+                            <span class="detail-value" id="modalYear"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Tools</span>
+                            <span class="detail-value" id="modalTools"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

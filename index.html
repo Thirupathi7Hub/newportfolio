@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Thirupathi | Frontend & AI Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Header -->
+    <!-- Header - Keep original structure -->
+<header class="header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-code"></i></span>
+                <span class="logo-text">Thirupathi</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">
+                    
+                    <span class="nav-text">Home</span>
+                </a></li>
+                <li><a href="about.html">
+                    
+                    <span class="nav-text">About</span>
+                </a></li>
+                <li><a href="projects.html">
+                    
+                    <span class="nav-text">Projects</span>
+                </a></li>
+                <li><a href="gallery.html">
+                    
+                    <span class="nav-text">Gallery</span>
+                </a></li>
+                <li><a href="contact.html">
+                    
+                    <span class="nav-text">Contact</span>
+                </a></li>
+                <li>
+                        <a href="Resume.pdf" class="btn btn-primary" id="thir" style="padding: 10px 20px;">
+                            <span style="color: white;">Download CV</span>
+                            <i class="fas fa-download" ></i>
+                        </a>
+                    </li>
+            </ul>
+            
+            
+            
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <!-- Hero Section -->
+    <!-- Hero Section - Updated for better responsiveness -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">Frontend Developer</span>
+                    <span class="badge-dot"></span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Crafting Digital</span>
+                    <span class="title-line highlight">Experiences</span>
+                    <span class="title-line">with Code & AI</span>
+                </h1>
+                
+                <p class="hero-description">
+                    I build innovative web solutions that merge cutting-edge frontend development 
+                    with artificial intelligence to create impactful digital experiences.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="projects.html" class="btn btn-primary">
+                        <span class="btn-text">View Projects</span>
+                        <i class="fas fa-arrow-right btn-icon"></i>
+                    </a>
+                    <a href="about.html" class="btn btn-outline">
+                        <span class="btn-text">Learn More</span>
+                        <i class="fas fa-chevron-right btn-icon"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="10">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="15">0</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="visual-container">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-dots">
+                                <span class="dot red" aria-hidden="true"></span>
+                                <span class="dot yellow" aria-hidden="true"></span>
+                                <span class="dot green" aria-hidden="true"></span>
+                            </div>
+                            <div class="window-title">Portfolio.js</div>
+                        </div>
+                        <div class="window-content">
+                            <pre><code class="language-javascript">
+<span class="code-comment">// Building the future of web</span>
+<span class="code-keyword">class</span> <span class="code-class">Portfolio</span> {
+    <span class="code-function">constructor</span>() {
+        <span class="code-this">this</span>.skills = [
+            'Frontend Development',
+            'AI Integration',
+            'UI/UX Design',
+            'Poster Design'
+        ];
+    }
+    
+    <span class="code-function">createExperience</span>() {
+        <span class="code-keyword">return</span> <span class="code-string">'Innovative solutions'</span>;
+    }
+}</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span class="sr-only">Scroll down to continue</span>
+        <span aria-hidden="true">Scroll</span>
+    </div>
+</section>
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">What I Do</span>
+                <h2 class="section-title">Specialized Services</h2>
+                <p class="section-description">
+                    Combining technical expertise with creative vision to deliver exceptional results.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive, performant web applications with modern frameworks and best practices.</p>
+                    <div class="service-tech">
+                        <span>React</span>
+                        <span>Vue.js</span>
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Implementing machine learning models and AI solutions into web applications for smarter experiences.</p>
+                    <div class="service-tech">
+                        <span>TensorFlow</span>
+                        <span>OpenAI</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive user interfaces with focus on accessibility, usability, and modern design trends.</p>
+                    <div class="service-tech">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Prototyping</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Recent Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <a href="projects.html" class="btn-link">
+                    View All Projects
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="projects-showcase">
+                <div class="project-featured">
+                    <div class="project-image">
+                        <img src="arievent.png" alt="AI Dashboard">
+                        <div class="project-overlay">
+                            <span class="project-category">AI Application</span>
+                            <h3>Intelligent Analytics Dashboard</h3>
+                            <p>Real-time data visualization with machine learning predictions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projects-side">
+                    <div class="project-mini">
+                        <div class="project-mini-image">
+                            <img src="photo.png" alt="E-commerce">
+                        </div>
+                        <div class="project-mini-content">
+                            <span class="project-mini-category">Web Application</span>
+                            <h4>Photographer Portfolio</h4>
+                            <a href="projects.html" class="project-mini-link">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-mini">
+                        <div class="project-mini-image">
+                            <img src="netflix.png" alt="netflix">
+                        </div>
+                        <div class="project-mini-content">
+                            <span class="project-mini-category">UI/UX Design</span>
+                            <h4>Netflix Clone</h4>
+                            <a href="projects.html" class="project-mini-link">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Technologies</span>
+                <h2 class="section-title">My Tech Stack</h2>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span>React</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>AI & Backend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span>Python</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Tools</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span>Git</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span>Figma</span>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Bring Your Vision to Life?</h2>
+                <p>Let's collaborate on your next project and create something extraordinary together.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">
+                    <span>Start a Project</span>
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"><i class="fas fa-code"></i></span>
+                        <span class="logo-text">Thirupathi</span>
+                    </a>
+                    <p>Frontend Developer & AI Student creating innovative digital solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Thirupathi7Hub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thirupathi-m-448030324/"><i class="fab fa-linkedin"></i></a>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Frontend Development</a></li>
+                            <li><a href="#">AI Integration</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="mailto:thirupathi.naasai@gmail.com">thirupathi.naasai@gmail.com</a></li>
+                            <li><a href="tel:7092964526">+91 7092964526</a></li>
+                            <li>Madurai, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Thirupathi. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

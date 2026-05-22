@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Thirupathi</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon"><i class="fas fa-code"></i></span>
+                    <span class="logo-text">Thirupathi</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html">
+                        
+                        <span class="nav-text">Home</span>
+                    </a></li>
+                    <li><a href="about.html">
+                        
+                        <span class="nav-text">About</span>
+                    </a></li>
+                    <li><a href="projects.html">
+                        
+                        <span class="nav-text">Projects</span>
+                    </a></li>
+                    <li><a href="gallery.html">
+                        
+                        <span class="nav-text">Gallery</span>
+                    </a></li>
+                    <li><a href="contact.html" class="active">
+                       
+                        <span class="nav-text">Contact</span>
+                    </a></li>
+                    <li>
+                        <a href="Resume.pdf" class="btn btn-primary" style="padding: 10px 20px;">
+                            <span style="color: white;">Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </li>
+                </ul>
+                               
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="page-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Contact</span>
+                </div>
+                <h1 class="page-title">Get In Touch</h1>
+                <p class="page-description">
+                    Have a project in mind or want to collaborate? I'd love to hear from you. 
+                    Let's create something amazing together.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal reveal-left">
+                    <div class="info-section">
+                        <h2>Let's Start a Conversation</h2>
+                        <p class="info-description">
+                            Whether you're looking to start a new project, need consultation on an existing one, 
+                            or just want to connect, I'm here to help.
+                        </p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="detail-card">
+                            <div class="detail-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Email</h4>
+                                <p>thirupathi.naasai@gmail.com</p>
+                                <a href="mailto:thirupathi.naasai@gmail.com" class="detail-link">Send Email</a>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <div class="detail-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Location</h4>
+                                <p>Madurai, Tamil Nadu</p>
+                                <a href="https://maps.app.goo.gl/jGBdmfp78iexKFwY6" class="detail-link">View on Map</a>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <div class="detail-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Phone</h4>
+                                <p>+91 7092964526</p>
+                                <a href="tel:+917092964526" class="detail-link">Call Now</a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3>Follow My Journey</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/Thirupathi7Hub" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/thirupathi-m-448030324/" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container reveal reveal-right">
+                    <div class="form-wrapper">
+                        <div class="form-header">
+                            <h3>Send a Message</h3>
+                            <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+                        </div>
+                        
+                        <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST"> 
+                            
+                            <div class="form-group dual-inputs">
+                                <div class="input-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                    <div class="form-line"></div>
+                                </div>
+                                <div class="input-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                    <div class="form-line"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="form-line"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <div class="form-line"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                                
+                            </div>
+                            
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-primary submit-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-icon">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </span>
+                                </button>
+                                <p class="form-note">
+                                    By submitting this form, you agree to our 
+                                    <a href="#">Privacy Policy</a>.
+                                </p>
+                            </div>
+                            
+                            <div class="form-message"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Bring Your Ideas to Life?</h2>
+                <p>Let's collaborate and create something extraordinary together.</p>
+                <a href="#contactForm" class="btn btn-primary btn-large">
+                    <span>Start a Project</span>
+                    <i class="fas fa-rocket"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"><i class="fas fa-code"></i></span>
+                        <span class="logo-text">Thirupathi</span>
+                    </a>
+                    <p>Frontend Developer & AI Student creating innovative digital solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Thirupathi7Hub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thirupathi-m-448030324/"><i class="fab fa-linkedin"></i></a>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Frontend Development</a></li>
+                            <li><a href="#">AI Integration</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="mailto:thirupathi.naasai@gmail.com">thirupathi.naasai@gmail.com</a></li>
+                            <li><a href="tel:7092964526">+91 7092964526</a></li>
+                            <li>Madurai, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Thirupathi. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Thirupathi</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon"><i class="fas fa-code"></i></span>
+                    <span class="logo-text">Thirupathi</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html">
+                       
+                        <span class="nav-text">Home</span>
+                    </a></li>
+                    <li><a href="about.html">
+                       
+                        <span class="nav-text">About</span>
+                    </a></li>
+                    <li><a href="projects.html" class="active">
+                      
+                        <span class="nav-text">Projects</span>
+                    </a></li>
+                    <li><a href="gallery.html">
+                        
+                        <span class="nav-text">Gallery</span>
+                    </a></li>
+                    <li><a href="contact.html">
+                        
+                        <span class="nav-text">Contact</span>
+                    </a></li>
+                    <li>
+                        <a href="Resume.pdf" class="btn btn-primary" style="padding: 10px 20px;">
+                            <span style="color: white;">Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </li>
+                </ul>                
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="page-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Projects</span>
+                </div>
+                <h1 class="page-title">My Projects</h1>
+                <p class="page-description">
+                    A curated collection of my work, showcasing innovative solutions in frontend development 
+                    and AI integration.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter-section">
+        <div class="container">
+            <div class="filter-controls">
+                <div class="filter-categories">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-masonry">
+                <!-- Project 1 -->
+                <div class="project-card masonry-item reveal" data-category="web ai" data-date="2023">
+                    <div class="project-card-image">
+                        <img src="arievent.png" alt="AI Analytics Dashboard">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                
+                                <div class="project-links">
+                                    <a href="https://arievent.netlify.app/" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-content">
+                        <h3>Ari Event Management</h3>
+                        <p>A comprehensive event management platform leveraging AI for intelligent scheduling and resource allocation.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Html</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card masonry-item reveal delay-1" data-category="design" data-date="2023">
+                    
+                    <div class="project-card-image">
+                        <img src="netflix.png" alt="Netflix Redesign">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                
+                                <div class="project-links">
+                                    <a href="https://www.figma.com/proto/CTbkOW4EGuYj9jDwjICbu3/Netflix?node-id=1-122&t=Lkv9NEoBRbEUY6ix-1" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-content">
+                        <h3>Netflix Redesign</h3>
+                        <p>A feature-rich redesign of the Netflix UI/UX Design</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card masonry-item reveal delay-2" data-category="web" data-date="2023">
+                    <div class="project-card-image">
+                        <img src="college.png" alt="College">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                
+                                <div class="project-links">
+                                    <a href="https://naass.netlify.app/pages/home_landing.html" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-content">
+                        <h3>College Website Mockup</h3>
+                        <p>A responsive website mockup for a college, featuring a modern design and user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span>Html</span>
+                            <span>Css</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card masonry-item reveal" data-category="web" data-date="2022">
+                    
+                    <div class="project-card-image">
+                        <img src="doto.png" alt="Doto">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                
+                                <div class="project-links">
+                                    <a href="https://do-to-listt.netlify.app/" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-content">
+                        <h3>Do-To List</h3>
+                        <p>A professionaly designed to-do list application with a focus on user experience and simplicity.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Local Storage</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card masonry-item reveal delay-1" data-category="design" data-date="2022">
+                    
+                    <div class="project-card-image">
+                        <img src="youtube.png" alt="Sentiment Analysis Tool">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                               
+                                <div class="project-links">
+                                    <a href="https://www.figma.com/proto/uBjVqUmxzSZqZfrcazxeNv/Youtube-Clone?node-id=1-3&p=f&t=r64V3SqwnHaGdmG5-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-content">
+                        <h3>YouTube Clone</h3>
+                        <p>The Inspired YouTube clone UI/UX design with a focus on user engagement and content discovery.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card masonry-item reveal delay-2" data-category="web" data-date="2021">
+                   
+                    <div class="project-card-image">
+                        <img src="photo.png" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                
+                                <div class="project-links">
+                                    <a href="https://amazephoto.netlify.app/pages/homepage.html" class="project-link" target="_blank"">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-content">
+                        <h3>Photographer Website</h3>
+                        <p>A stunning portfolio website showcasing the work of a professional photographer, with a focus on visual storytelling and user engagement.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Css</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Have a Project in Mind?</h2>
+                <p>Let's collaborate to turn your ideas into reality with cutting-edge technology and innovative design.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">
+                    <span>Start a Conversation</span>
+                    <i class="fas fa-comments"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"><i class="fas fa-code"></i></span>
+                        <span class="logo-text">Thirupathi</span>
+                    </a>
+                    <p>Frontend Developer & AI Student creating innovative digital solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Thirupathi7Hub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thirupathi-m-448030324/"><i class="fab fa-linkedin"></i></a>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Frontend Development</a></li>
+                            <li><a href="#">AI Integration</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="mailto:thirupathi.naasai@gmail.com">thirupathi.naasai@gmail.com</a></li>
+                            <li><a href="tel:7092964526">+91 7092964526</a></li>
+                            <li>Madurai, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Thirupathi. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>
